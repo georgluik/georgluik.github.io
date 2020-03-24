@@ -193,6 +193,7 @@ footer span{
 }
 .aine h5{
     margin-bottom:2%;
+    font-weight: bold;	
 }
 
 @media only screen and (max-width: 900px){

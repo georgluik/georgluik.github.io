@@ -1,0 +1,324 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    min-width:320px;
+    margin:0;
+    padding:0;
+}
+
+.container{
+   min-width:100%;
+   margin: 0;
+   padding:0!important;
+}
+
+.title{
+    margin-bottom:30px; 
+}
+.nav{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    position:fixed;
+    background:#FFF;
+    top:0;
+    left:0;
+    z-index:2;
+}
+.nav__item{
+    margin:15px 30px;
+    font-weight:600;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+.about{
+    position:fixed;
+    top:54px;
+    left:0;
+    height:calc(100vh - 154px);
+    background:#FFF;
+    padding:10% 8%;
+    width:100%;
+}
+.content{
+    position:relative;
+    padding-top: calc(100vh - 90px);
+    padding-bottom:30%;
+    height:100vh;
+    width:100%;
+}
+.scroll{
+    padding:30px 0 50px;
+    background:#FFF;
+    font-size:24px;
+    text-align:center;
+}
+.module{
+    background:#FFF;
+    padding:0 7% 8% 7%; 
+}   
+.contact{
+    padding:5% 7% 7% 7%;
+    background:#FFF;
+}
+.dropdown{
+    display:flex;
+    flex-wrap:wrap;
+    padding:50px 0;
+}
+.drops{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align:center;
+    margin-top:4%;
+}
+.dropdown h1{
+    width:100%;
+    text-align:center;
+    margin:30px;
+}
+
+/* dropdown*/
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius:10px;
+  width:80%;
+  height:80px;
+  outline:none;
+}
+.dropbtn:focus {
+    outline:none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  width:25%;
+  margin:50px 0;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown1-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  width:80%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius:10px;
+  margin-left:10%;
+}
+
+/* Links inside the dropdown */
+.dropdown1-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown1-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown1-content {
+  display: block;
+}
+
+a.dropbtn{
+    text-decoration:none;
+    color:white !important;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.self{
+    padding-top:10%;
+}
+.cwrapper{
+    display:flex;
+    flex-wrap: wrap;
+}
+.cont{
+    width:100%;
+}
+.icon{
+    margin:5% 5% 0 0;
+    font-size:18px;
+}
+.icon span{
+    margin-left:10px;
+}
+footer{
+    background:#FFF;
+    text-align:center;
+    height:40px;
+    width:100%;
+    
+    padding:10px;
+}
+footer span{
+    margin-top:10%;
+}
+
+/* mooduli lehed */
+
+.aine{
+    margin-top:7%;
+}
+.iicontainer{
+    padding:15% 0 10% 0;
+}
+.heading h1{
+    margin-bottom:8%
+}
+.sisu {
+    padding: 0 10%;
+}
+.aine h5{
+    margin-bottom:2%;
+}
+
+@media only screen and (max-width: 900px){
+    .dropdown1{
+        width:100%;
+        text-align:center;
+    }
+    .dropbtn{
+        width:80%;
+        height:70px;
+        font-size:14px;
+    }
+    .about{
+        padding: 25% 8% 10% 8%;
+    }
+    .heading h1{
+        font-size:26px;
+        margin-bottom:15%;
+    }
+    .dropdown1-content{
+        margin-left:10%;
+    }
+    .iicontainer{
+        padding-top:50%;
+        padding-bottom: 20%;
+    }
+    .aine h5{
+        font-size:18px;
+        margin:10% 0 3% 0;
+    }
+    .opivaljund h4{
+        font-size:18px;
+    }
+}
+
+.prog h5{
+    width:100%;
+}
+.prog{
+    display:flex;
+    flex-wrap:wrap;
+    height:200px;
+}
+  
+
+  .progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    margin:20px 20px 0 0;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    display: flex;
+    height: 50px;
+    width: 100px;
+    transform:rotate(270deg)
+  }
+  
+  .progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border:1px solid black;
+    background: black;
+    height: 200px;
+    width: 0;
+    color:white;
+   
+    font-size: 20px;
+    display:flex;
+    align-items: center;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 68%; }
+  }
+
+  @media only screen and (min-width: 1850px){
+    .title {
+        font-size:64px;
+    }
+    p{
+        font-size:28px;
+    }
+    .w-100{
+        font-size:64px;
+    }
+    .nav_item, a{
+        font-size:24px;
+    }
+    .opivaljund{
+        font-size:24px;
+    }
+.aine h5{
+    font-size:32px;
+    }
+    .icon{
+        font-size:24px;
+    }
+    a{
+        font-size:26px;
+    }
+    .dropbtn{
+        font-size:20px;
+    }
+    .dropdown1-content a{
+        font-size:20px;
+    }
+}
+@media only screen and (max-width: 500px){
+    
+    h1{
+        font-size:32px!important;
+    }
+    .self{
+        text-align: center;
+    }
+    .icon{
+        width: 100%;
+        font-size:16px;
+    }
+    .cwrapper{
+        text-align:center;
+    }
+    footer span{
+        font-size:12px;
+    }
+ 
+}

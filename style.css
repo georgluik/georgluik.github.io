@@ -18,6 +18,8 @@ body{
 .title{
     margin-bottom:30px; 
     width:100%;
+    text-align:center;
+    font-size:56px;
 }
 .nav{
     display:flex;
@@ -82,10 +84,12 @@ a:hover{
     flex-wrap: wrap;
 }
 .tere{
-    width:50%;
+    width:100%;
+    text-align:center;
+    font-size:20px;
 }
 .prog{
-    width:50%;
+    width:100%;
 }
 .module{
     background:#FFF;
@@ -106,7 +110,6 @@ a:hover{
     flex-wrap:wrap;
     justify-content:center;
     text-align:center;
-    margin-top:4%;
 }
 .dropdown h1{
     width:100%;
@@ -276,55 +279,7 @@ footer span{
     font-weight:bold;
 }
 
-@media only screen and (max-width: 900px){
-    .dropdown1{
-        width:100%;
-        text-align:center;
-    }
-    .dropdown{
-        padding:0;
-    }
-    .dropbtn{
-        width:80%;
-        height:70px;
-        font-size:14px;
-    }
-    .about{
-        padding: 25% 8% 10% 8%;
-    }
-    .heading h1{
-        font-size:26px;
-        margin-bottom:15%;
-    }
-    .dropdown1-content{
-        margin-left:10%;
-    }
-    .iicontainer{
-        padding-top:50%;
-        padding-bottom: 20%;
-    }
-    .aine h5{
-        font-size:18px;
-        margin:15% 0 3% 0;
-    }
-    .opivaljund h4{
-        font-size:18px;
-    }
-    .home{
-        display:block;
-    }
-    .tere{
-        width: 100%;
-    }
-    .prog{
-        margin-top:8%;
-        width:100%;
-        padding-left:0!important;
-    }
-    .progress{
-        width:100%!important;
-    }
-}
+
 
 /* progress bars*/ 
 .prog h5{
@@ -332,13 +287,13 @@ footer span{
 }
 .prog{
     display:flex;
-    flex-wrap:wrap;
     height:auto;
-    padding-left:7%;
+    padding-top:10%;
 }
   
 .bar{
     width:100%;
+    text-align:center;
 }
 .bar p{
     margin:0;
@@ -354,6 +309,7 @@ footer span{
     height: 15px;
     width: 60%;
     margin-bottom:10px;
+    margin:auto;
 } 
   .progress-value {
     animation: load 3s normal forwards;
@@ -421,6 +377,60 @@ footer span{
     0% { width: 0; }
     100% { width: 45%; }
   }
+
+  @media only screen and (max-width: 900px){
+    .dropdown1{
+        width:100%;
+        text-align:center;
+    }
+    .dropdown{
+        padding:0;
+    }
+    .dropbtn{
+        width:80%;
+        height:70px;
+        font-size:14px;
+    }
+    .about{
+        padding: 25% 8% 10% 8%;
+    }
+    .heading h1{
+        font-size:26px;
+        margin-bottom:15%;
+    }
+    .dropdown1-content{
+        margin-left:10%;
+    }
+    .iicontainer{
+        padding-top:50%;
+        padding-bottom: 20%;
+    }
+    .aine h5{
+        font-size:18px;
+        margin:15% 0 3% 0;
+    }
+    .opivaljund h4{
+        font-size:18px;
+    }
+    .home{
+        display:block;
+    }
+    .tere{
+        width: 100%;
+        font-size:16px;
+    }
+    .prog{
+        width:100%;
+        padding-left:0;
+        flex-wrap:wrap;
+    }
+    .progress{
+        width:100%;
+    }
+    .bar{
+        padding-top:15px;
+    }
+}
 
   @media only screen and (min-width: 1850px){
     .title {

@@ -437,7 +437,29 @@ footer span{
         font-size:64px;
     }
     p{
-        font-size:28px;
+        font-size:24px;
+    }
+    .yeartitle{
+        font-size:36px;
+    }
+    .yeartitle:after{
+        top:42px;
+        width:17%;
+    }
+    .tere{
+        font-size:26px;
+    }
+    .home{
+        padding-top:5%;
+    }
+    .selfmodule{
+        font-size:24px;
+    }
+    .module{
+        padding: 0 15% 5% 15%;
+    }
+    .contact{
+        padding: 3% 15% 5% 15%;
     }
     .w-100{
         font-size:64px;
@@ -462,6 +484,9 @@ footer span{
     }
     .dropdown1-content a{
         font-size:20px;
+    }
+    .sisu{
+        padding:0 15%;
     }
 }
 @media only screen and (max-width: 500px){

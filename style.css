@@ -8,7 +8,13 @@ body{
     margin:0;
     padding:0;
 }
+ img{
+     max-width:100%;
+ }
 
+ p{
+     line-height:1.6;
+ }
 .container{
    min-width:100%;
    margin: 0;
@@ -272,14 +278,57 @@ footer span{
     margin-bottom:8%
 }
 .sisu {
-    padding: 0 10%;
+    padding: 0 15%;
 }
 .aine h5{
     margin-bottom:2%;
     font-weight:bold;
 }
+.pildid{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:50px;
+}
+.pildid img{
+    width: 25%;
+    height:auto;
+}
+.pool{
+    display:flex;
+}
+.pool p{
+    margin-top:20px;
+    padding-right:20px;
+}
+#ga{
+    margin-bottom:0;
+}
+.pool img{
+    width:50%;
+}
+.christmas{
+    width:25%;
+}
+.divider{
+    display:flex;
+}
+.divider-text{
+    width:75%;
+}
 
-
+.kunst-image{
+    max-width:100%;
+}
+.alused{
+    display:flex;
+}
+.alused p{
+    width:40%;
+    padding-right:20px;
+}
+.alused a{
+    width:60%;
+}
 
 /* progress bars*/ 
 .prog h5{
@@ -318,7 +367,7 @@ footer span{
     background: rgb(39, 221, 2);
     height: 16px;
     width: 0;
-    animation-delay:1s;
+    animation-delay:.5s;
   }
   .progress1-value {
     animation: load1 3s normal forwards;
@@ -327,7 +376,7 @@ footer span{
     background: rgb(226, 16, 0);
     height: 16px;
     width: 0;
-    animation-delay:1s;
+    animation-delay:.5s;
   }
   .progress2-value {
     animation: load2 3s normal forwards;
@@ -336,7 +385,7 @@ footer span{
     background: rgb(39, 221, 2);
     height: 16px;
     width: 0;
-    animation-delay:1s;
+    animation-delay:.5s;
   }
   .progress3-value {
     animation: load3 3s normal forwards;
@@ -345,7 +394,7 @@ footer span{
     background: rgb(255, 184, 31);
     height: 16px;
     width: 0;
-    animation-delay:1s;
+    animation-delay:.5s;
   }
   .progress4-value {
     animation: load4 3s normal forwards;
@@ -354,7 +403,7 @@ footer span{
     background: rgb(255, 184, 31);
     height: 16px;
     width: 0;
-    animation-delay:1s;
+    animation-delay:.5s;
   }
   
   @keyframes load {
@@ -430,6 +479,34 @@ footer span{
     .bar{
         padding-top:15px;
     }
+    .pool{
+        display:block;
+    }
+    .pool p{
+        padding-right:0;
+    }
+    .pool img{
+        width:100%;
+    }
+    .divider{
+        flex-wrap:wrap;
+    }
+    .divider-text{
+        width:100%;
+    }
+    .christmas{
+        width:50%;
+        margin:auto;
+    }
+    .alused{
+        display:block;
+    }
+    .alused p{
+      width:100%;  
+    }
+    .alused img{
+        width:100%;
+    }
 }
 
   @media only screen and (min-width: 1850px){
@@ -448,8 +525,6 @@ footer span{
     }
     .tere{
         font-size:26px;
-    }
-    .home{
         padding-top:5%;
     }
     .selfmodule{
@@ -486,7 +561,7 @@ footer span{
         font-size:20px;
     }
     .sisu{
-        padding:0 15%;
+        padding:0 20%;
     }
 }
 @media only screen and (max-width: 500px){

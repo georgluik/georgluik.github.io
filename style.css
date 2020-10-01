@@ -102,7 +102,7 @@ a:hover{
     padding:0 7% 8% 7%; 
 }   
 .contact{
-    padding:5% 7% 7% 7%;
+    padding:0 7% 7% 7%;
     background:#FFF;
 }
 .dropdown{
@@ -238,7 +238,7 @@ a.dropbtn{
   background-color: #404040;
 }
 .self{
-    padding-top:8%;
+    padding:5% 8% 0;
 }
 .cwrapper{
     display:flex;
@@ -271,6 +271,9 @@ footer span{
 .aine{
     margin-top:5%;
 }
+.ained p{
+    padding:5px 0;
+}
 .iicontainer{
     padding:15% 0 10% 0;
 }
@@ -278,7 +281,7 @@ footer span{
     margin-bottom:8%
 }
 .sisu {
-    padding: 0 15%;
+    padding: 0 20%;
 }
 .aine h5{
     margin-bottom:2%;
@@ -315,7 +318,6 @@ footer span{
 .divider-text{
     width:75%;
 }
-
 .kunst-image{
     max-width:100%;
 }
@@ -328,6 +330,13 @@ footer span{
 }
 .alused a{
     width:60%;
+}
+.arendus-pildid{
+    display:flex;
+    padding:15px 0;
+}
+.arendus-pildid a{
+    width:50%;
 }
 
 /* progress bars*/ 
@@ -451,7 +460,6 @@ footer span{
         margin-left:10%;
     }
     .iicontainer{
-        padding-top:50%;
         padding-bottom: 20%;
     }
     .aine h5{
@@ -507,6 +515,9 @@ footer span{
     .alused img{
         width:100%;
     }
+    .sisu{
+        padding: 0 10%;
+    }
 }
 
   @media only screen and (min-width: 1850px){
@@ -561,7 +572,7 @@ footer span{
         font-size:20px;
     }
     .sisu{
-        padding:0 20%;
+        padding:0 25%;
     }
 }
 @media only screen and (max-width: 500px){
@@ -583,7 +594,7 @@ footer span{
         width:50%;
     }
     .sisu{
-        padding: 0 10%;
+        padding: 0 5%;
     }
     .content{
         padding-top:0;
@@ -592,6 +603,15 @@ footer span{
         position:relative;
         height:auto;
         top:0;
+    }
+    .iicontainer{
+        padding-top:25%;
+    }
+    .arendus-pildid{
+        display:block;
+    }
+    .self{
+        padding:5% 0;
     }
 }
 

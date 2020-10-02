@@ -10,6 +10,7 @@ body{
 }
  img{
      max-width:100%;
+     object-fit:contain;
  }
 
  p{
@@ -64,10 +65,7 @@ a:hover{
     width:100%;
 }
 .about{
-    position:fixed;
-    top:54px;
-    left:0;
-    height:calc(100vh - 102px);
+    position:relative;
     background:#333333;
     padding:10% 8%;
     width:100%;
@@ -75,7 +73,6 @@ a:hover{
 }
 .content{
     position:relative;
-    padding-top: calc(100vh - 45px);
     padding-bottom:30%;
     height:100vh;
     width:100%;
@@ -117,7 +114,7 @@ a:hover{
     justify-content:center;
     text-align:center;
 }
-.dropdown h1{
+.dropdown h2{
     width:100%;
     text-align:center;
     margin:30px;
@@ -643,4 +640,23 @@ footer span{
         font-size:14px;
     }
 }
+@media only screen and (min-width: 1025px){
 
+.about{
+    position:fixed;
+    top:54px;
+    left:0;
+    height:calc(100vh - 45px);
+    background:#333333;
+    padding:10% 8%;
+    width:100%;
+    color:white;
+}
+.content{
+    position:relative;
+    padding-top: calc(100vh - 45px);
+    padding-bottom:30%;
+    height:100vh;
+    width:100%;
+}
+}

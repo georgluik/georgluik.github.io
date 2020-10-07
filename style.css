@@ -182,6 +182,7 @@ a:hover{
 .selfmodule{
     font-size:18px;
     padding-top:25px;
+    font-weight:bold;
 }
 /* dropdown*/
 .dropbtn {

@@ -139,15 +139,15 @@ a:hover{
 .yeartitle{
     font-size:26px;
     font-weight:400;
-    margin-top:45px;
+    margin-top:75px;
 }
 .yeartitle:after{
     position: absolute;
     content: "";
     border-bottom: 2px solid black;
-    width:13%;
+    width:15%;
     left:0;
-    top:30px;
+    top:35px;
 }
 #tick-mark {
     position: relative;
@@ -248,7 +248,7 @@ a.dropbtn{
   background-color: #404040;
 }
 .self{
-    padding:5% 8% 0;
+    padding:5% 15% 0;
 }
 .cwrapper{
     display:flex;
@@ -294,7 +294,7 @@ footer span{
     padding: 0 20%;
 }
 .aine h5{
-    margin-bottom:2%;
+    margin-bottom: 10px;
     font-weight:bold;
 }
 .pildid{
@@ -400,7 +400,7 @@ footer span{
     animation: load1 3s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
-    background: rgb(226, 16, 0);
+    background: rgb(255, 184, 31);
     height: 16px;
     width: 0;
     animation-delay:.5s;
@@ -435,11 +435,11 @@ footer span{
   
   @keyframes load {
     0% { width: 0; }
-    100% { width: 68%; }
+    100% { width: 72%; }
   }
   @keyframes load1 {
     0% { width: 0; }
-    100% { width: 18%; }
+    100% { width: 30%; }
   }
   @keyframes load2 {
     0% { width: 0; }
@@ -451,7 +451,7 @@ footer span{
   }
   @keyframes load4 {
     0% { width: 0; }
-    100% { width: 65%; }
+    100% { width: 80%; }
   }
 
   @media only screen and (max-width: 900px){
@@ -466,6 +466,9 @@ footer span{
         width:80%;
         height:70px;
         font-size:14px;
+    }
+    .self {
+        padding: 5% 5%;
     }
     .about{
         padding: 25% 8% 10% 8%;

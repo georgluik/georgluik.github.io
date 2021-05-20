@@ -288,7 +288,7 @@ footer span{
     padding:5px 0;
 }
 .iicontainer{
-    padding:15% 0 10% 0;
+    padding:10% 0;
 }
 .heading h1{
     margin-bottom:8%
@@ -299,6 +299,7 @@ footer span{
 .aine h5{
     margin-bottom: 10px;
     font-weight:bold;
+    letter-spacing: 1.4px;
 }
 .pildid{
     display:flex;
@@ -457,6 +458,22 @@ footer span{
     100% { width: 80%; }
   }
 
+  /* cv */
+  .cv {
+      display: flex;
+      margin: 20px 0;
+  }
+  .aasta {
+      width: 20%;
+      border-right: 1px solid black;
+  }
+  .koht {
+      width: 60%;
+      padding-left: 15px;
+  }
+  .aine .cv-title {
+      margin-bottom: 20px;
+  }
   @media only screen and (max-width: 900px){
     .dropdown1{
         width:100%;
@@ -660,7 +677,9 @@ footer span{
     .signature{
         order:1;
     }
-    
+    .nav__item {
+        margin: 15px 20px;
+    }
 }
 
 @keyframes bounce {
@@ -710,4 +729,31 @@ footer span{
     height:100vh;
     width:100%;
 }
+
+}
+@media only screen and (max-width: 1025px){
+.aasta{
+    width: 30%;
+}
+.koht{
+    width: 70%;
+}
+}@media only screen and (max-width: 600px){
+    .cv{
+        display: block;
+    }
+    .aasta {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+        padding: 5px 0;
+     
+    }
+    .koht {
+        width: 100%;
+        padding: 5px 0;
+    }
+    .cv {
+        margin: 25px 0;
+    }
 }

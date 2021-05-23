@@ -510,6 +510,10 @@ footer span{
     .opivaljund h4{
         font-size:18px;
     }
+    .opivaljund ul li {
+        margin: 5px 0;
+    }
+
     .home{
         display:block;
     }

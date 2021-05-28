@@ -499,6 +499,9 @@ footer span{
         height:70px;
         font-size:14px;
     }
+    .multi p {
+        width: 100%;
+    }
     .self {
         padding: 5% 5%;
     }
@@ -753,6 +756,9 @@ footer span{
 }
 .dropdown1:hover .dropdown1-content {
     display: none;
+}
+.praktika:hover .dropdown1-content {
+    display: block;
 }
 }
 @media only screen and (max-width: 600px){

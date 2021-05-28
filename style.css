@@ -17,6 +17,10 @@ body{
 .dropbtn a {
     color: #fff;
 }
+.dropbtn a:hover {
+    color: #fff;
+}
+
  p{
      line-height:1.6;
  }
@@ -747,7 +751,11 @@ footer span{
 .koht{
     width: 70%;
 }
-}@media only screen and (max-width: 600px){
+.dropdown1:hover .dropdown1-content {
+    display: none;
+}
+}
+@media only screen and (max-width: 600px){
     .cv{
         display: block;
     }
